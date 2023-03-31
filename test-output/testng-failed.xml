@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Testpackage.HomepageTestCases">
+        <methods>
+          <include name="VerifyLoginFunctionalityWithCorrectData"/>
+          <include name="aftermethod"/>
+          <include name="VerifyHomePageFunctionality"/>
+          <include name="VerifyHomePageFunctionalities"/>
+          <include name="VerifyhomepageFuncionality"/>
+          <include name="beforesuite"/>
+          <include name="afterTest"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- Testpackage.HomepageTestCases -->
+      <class name="Testpackage.LoginTestCases">
+        <methods>
+          <include name="VerifyLoginFunctionalityWithInCorrectData"/>
+          <include name="aftermethod"/>
+          <include name="VerifyLoginFunctionalityWithBlnkData"/>
+          <include name="VerifyLoginFunctionalityWithCorrectData"/>
+          <include name="beforesuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testpackage.LoginTestCases -->
+      <class name="Testpackage.BaseClass">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testpackage.BaseClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

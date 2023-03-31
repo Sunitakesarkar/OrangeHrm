@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="11" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-21T14:30:59 IST" name="Suite" finished-at="2023-03-21T14:35:31 IST" duration-ms="271901">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T14:30:59 IST" name="Test" finished-at="2023-03-21T14:35:31 IST" duration-ms="271901">
+      <class name="Testpackage.BaseClass">
+        <test-method is-config="true" signature="beforesuite(java.lang.String)[pri:0, instance:Testpackage.BaseClass@5656be13]" started-at="2023-03-21T14:30:59 IST" name="beforesuite" finished-at="2023-03-21T14:31:17 IST" duration-ms="17942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Testpackage.BaseClass@5656be13]" started-at="2023-03-21T14:35:31 IST" name="afterTest" finished-at="2023-03-21T14:35:31 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Testpackage.BaseClass -->
+      <class name="Testpackage.HomepageTestCases">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:32:54 IST" name="beforemethod" finished-at="2023-03-21T14:32:54 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyLoginFunctionalityWithCorrectData()[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:32:54 IST" name="VerifyLoginFunctionalityWithCorrectData" finished-at="2023-03-21T14:33:21 IST" duration-ms="27908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionalityWithCorrectData -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:33:21 IST" name="aftermethod" finished-at="2023-03-21T14:33:22 IST" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFunctionalityWithCorrectData status=SUCCESS method=HomepageTestCases.VerifyLoginFunctionalityWithCorrectData()[pri:0, instance:Testpackage.HomepageTestCases@411f53a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:33:22 IST" name="beforemethod" finished-at="2023-03-21T14:33:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyHomePageFunctionality()[pri:1, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:33:22 IST" name="VerifyHomePageFunctionality" finished-at="2023-03-21T14:33:55 IST" duration-ms="33005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageFunctionality -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:33:55 IST" name="aftermethod" finished-at="2023-03-21T14:33:55 IST" duration-ms="84" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomePageFunctionality status=SUCCESS method=HomepageTestCases.VerifyHomePageFunctionality()[pri:1, instance:Testpackage.HomepageTestCases@411f53a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:33:55 IST" name="beforemethod" finished-at="2023-03-21T14:33:55 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyHomePageFunctionalities()[pri:2, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:33:55 IST" name="VerifyHomePageFunctionalities" finished-at="2023-03-21T14:34:33 IST" duration-ms="37968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePageFunctionalities -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:34:33 IST" name="aftermethod" finished-at="2023-03-21T14:34:33 IST" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyHomePageFunctionalities status=SUCCESS method=HomepageTestCases.VerifyHomePageFunctionalities()[pri:2, instance:Testpackage.HomepageTestCases@411f53a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:34:33 IST" name="beforemethod" finished-at="2023-03-21T14:34:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="VerifyhomepageFuncionality()[pri:3, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:34:33 IST" name="VerifyhomepageFuncionality" finished-at="2023-03-21T14:35:31 IST" duration-ms="57863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyhomepageFuncionality -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.HomepageTestCases@411f53a0]" started-at="2023-03-21T14:35:31 IST" name="aftermethod" finished-at="2023-03-21T14:35:31 IST" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyhomepageFuncionality status=SUCCESS method=HomepageTestCases.VerifyhomepageFuncionality()[pri:3, instance:Testpackage.HomepageTestCases@411f53a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Testpackage.HomepageTestCases -->
+      <class name="Testpackage.LoginTestCases">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:17 IST" name="beforeMethod" finished-at="2023-03-21T14:31:17 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginFunctionalityWithInCorrectData()[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:17 IST" name="VerifyLoginFunctionalityWithInCorrectData" finished-at="2023-03-21T14:31:52 IST" duration-ms="34717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionalityWithInCorrectData -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:52 IST" name="aftermethod" finished-at="2023-03-21T14:31:52 IST" duration-ms="498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFunctionalityWithInCorrectData status=SUCCESS method=LoginTestCases.VerifyLoginFunctionalityWithInCorrectData()[pri:0, instance:Testpackage.LoginTestCases@6b2ea799] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:52 IST" name="beforeMethod" finished-at="2023-03-21T14:31:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginFunctionalityWithBlnkData()[pri:1, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:52 IST" name="VerifyLoginFunctionalityWithBlnkData" finished-at="2023-03-21T14:31:55 IST" duration-ms="3165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionalityWithBlnkData -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:55 IST" name="aftermethod" finished-at="2023-03-21T14:31:55 IST" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFunctionalityWithBlnkData status=SUCCESS method=LoginTestCases.VerifyLoginFunctionalityWithBlnkData()[pri:1, instance:Testpackage.LoginTestCases@6b2ea799] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:55 IST" name="beforeMethod" finished-at="2023-03-21T14:31:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyLoginFunctionalityWithCorrectData()[pri:2, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:31:55 IST" name="VerifyLoginFunctionalityWithCorrectData" finished-at="2023-03-21T14:32:53 IST" duration-ms="57946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginFunctionalityWithCorrectData -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:Testpackage.LoginTestCases@6b2ea799]" started-at="2023-03-21T14:32:53 IST" name="aftermethod" finished-at="2023-03-21T14:32:54 IST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginFunctionalityWithCorrectData status=SUCCESS method=LoginTestCases.VerifyLoginFunctionalityWithCorrectData()[pri:2, instance:Testpackage.LoginTestCases@6b2ea799] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- Testpackage.LoginTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
